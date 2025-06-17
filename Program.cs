@@ -17,4 +17,8 @@ public class Program
         int result = a - b;
         Console.WriteLine("My Result is: " + result);
     }
+    public void NewLocalTestMethod()
+    {
+        Console.WriteLine("Bello.");
+    }
 }
