@@ -8,4 +8,13 @@ public class Program
     {
         Console.WriteLine("Hello, World!");
     }
+    public Program()
+    {
+
+    }
+    public void CalculateAndPrint(int a, int b)
+    {
+        int result = a - b;
+        Console.WriteLine("My Result is: " + result);
+    }
 }
