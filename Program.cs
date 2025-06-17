@@ -19,6 +19,10 @@ public class Program
     }
     public void NewLocalTestMethod()
     {
+        Console.WriteLine("Bello.")
+    }
+    public void NewGlobalTestMethod()
+    {
         Console.WriteLine("Bello.");
     }
 }
